@@ -1,7 +1,18 @@
-h1
+header
 {
     border-style:none;
-    padding-bottom: 10px;
+    font-size:xx-large;
+    font-weight:bold;
+    background-color: rgb(62, 72, 131);
+    margin-bottom: 10px;
+    padding-left: 10px;
+    text-align: justify;
+}
+footer
+{
+    background-color: rgb(160, 154, 154);
+    position:fixed;
+    bottom: 0;
 }
 .input_testo
 {
