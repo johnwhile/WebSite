@@ -10,7 +10,7 @@
     <header>Scontrinatore</header>
     <div>
       <label for="operatore">Operatore</label>
-      <input type="text" class="input_testo" id="operatore" placeholder="JP" />
+      <input type="text" class="input_testo" id="operatore" value="JP" />
     </div>
     <div>
       <label for="articolo">Articolo</label>
@@ -18,7 +18,7 @@
         type="text"
         class="input_testo"
         id="articolo"
-        placeholder="50ml 30cpr 0.55g"
+        value="50ml 30cpr 0.55g"
       />
       <select id="articolo">
         <option value="50ml 30cpr 0.55g">50ml 30cpr 0.55g</option>
@@ -36,7 +36,7 @@
         type="text"
         class="input_testo"
         id="lotto"
-        placeholder="05210100 FC2533"
+        value="05210100 FC2533"
       />
     </div>
     <div>
@@ -46,16 +46,10 @@
         class="input_numero"
         id="pmin"
         size="5"
-        placeholder="16.5"
+        value="16.5"
       />
       <label for="nmin">N Minimo</label>
-      <input
-        type="number"
-        class="input_numero"
-        id="nmin"
-        size="5"
-        placeholder="-1"
-      />
+      <input type="number" class="input_numero" id="nmin" size="5" value="-1" />
     </div>
     <div>
       <label for="pmax">Peso Massimo</label>
@@ -64,16 +58,10 @@
         class="input_numero"
         id="pmax"
         size="10"
-        placeholder="17.0"
+        value="17.0"
       />
       <label for="nmax">N Massimo</label>
-      <input
-        type="number"
-        class="input_numero"
-        id="nmax"
-        size="5"
-        placeholder="-1"
-      />
+      <input type="number" class="input_numero" id="nmax" size="5" value="-1" />
     </div>
     <div>
       <label for="barattoli">Barattoli</label>
@@ -81,7 +69,7 @@
         type="number"
         class="input_numero"
         id="barattoli"
-        placeholder="180"
+        value="180"
         required
       />
       <span class="validity"></span>
