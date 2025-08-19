@@ -8,49 +8,77 @@
     <h1>Scontrinatore</h1>
     <div>
       <label for="operatore">Operatore</label>
-      <input type="text" id="operatore" name="name" placeholder="JP" />
+      <input type="text" class="input_testo" id="operatore" placeholder="JP" />
     </div>
     <div>
       <label for="articolo">Articolo</label>
       <input
         type="text"
+        class="input_testo"
         id="articolo"
-        name="name"
         placeholder="50ml 30cpr 0.55g"
       />
-      <select name="articololista" id="articolo">
+      <select id="articolo">
         <option value="50ml 30cpr 0.55g">50ml 30cpr 0.55g</option>
         <option value="75ml 30cpr 0.55g">50ml 30cpr 0.55g</option>
         <hr />
         <optgroup label="Purina">
-        <option value="50ml 30cpr 0.55g">Purina Cat 30</option>
-        <option value="75ml 30cpr 1.10g">Purina Dog 30</option>
+          <option value="50ml 30cpr 0.55g">Purina Cat 30</option>
+          <option value="75ml 30cpr 1.10g">Purina Dog 30</option>
         </optgroup>
       </select>
     </div>
     <div>
       <label for="lotto">Lotto</label>
-      <input type="text" id="lotto" name="name" placeholder="05210100 FC2533" />
+      <input
+        type="text"
+        class="input_testo"
+        id="lotto"
+        placeholder="05210100 FC2533"
+      />
     </div>
     <div>
       <label for="pmin">Peso Minimo</label>
-      <input type="number" id="pmin" name="name" size="5" placeholder="16.5" />
-      <label for="nmin">Numero Minimo</label>
-      <input type="number" id="nmin" name="name" size="5" placeholder="-1" />
+      <input
+        type="number"
+        class="input_numero"
+        id="pmin"
+        size="5"
+        placeholder="16.5"
+      />
+      <label for="nmin">N Minimo</label>
+      <input
+        type="number"
+        class="input_numero"
+        id="nmin"
+        size="5"
+        placeholder="-1"
+      />
     </div>
     <div>
       <label for="pmax">Peso Massimo</label>
-      <input type="number" id="pmax" name="name" size="10" placeholder="17.0" />
-      <label for="nmax">Numero Massimo</label>
-      <input type="number" id="nmax" name="name" size="5" placeholder="-1" />
+      <input
+        type="number"
+        class="input_numero"
+        id="pmax"
+        size="10"
+        placeholder="17.0"
+      />
+      <label for="nmax">N Massimo</label>
+      <input
+        type="number"
+        class="input_numero"
+        id="nmax"
+        size="5"
+        placeholder="-1"
+      />
     </div>
     <div>
       <label for="barattoli">Barattoli</label>
       <input
         type="number"
+        class="input_numero"
         id="barattoli"
-        name="name"
-        size="10"
         placeholder="180"
         required
       />
@@ -61,8 +89,8 @@
       <label for="inizio">Inizio</label>
       <input
         type="datetime-local"
+        class="input_testo"
         id="inizio"
-        name="name"
         value="2017-06-01T08:30"
       />
       <span class="validity"></span>
@@ -71,8 +99,8 @@
       <label for="fine">Fine</label>
       <input
         type="datetime-local"
+        class="input_testo"
         id="fine"
-        name="name"
         value="2017-06-01T08:30"
       />
       <span class="validity"></span>

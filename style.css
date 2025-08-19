@@ -1,4 +1,20 @@
-
+h1
+{
+    border-style:none;
+    padding-bottom: 10px;
+}
+.input_testo
+{
+    border-style: inset;
+    border-color: cadetblue;
+    width: 30ch;
+}
+.input_numero
+{
+    border-style: inset;
+    border-color: cadetblue;
+    width: 10ch;
+}
 body
 {
     background-color:cornflowerblue;
